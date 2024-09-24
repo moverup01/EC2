@@ -34,6 +34,7 @@ jobs:
             sudo apt-get install -y apache2
             sudo systemctl start apache2
             sudo systemctl enable apache2
+            mkdir /var/www/html/images
             cd home
             sudo mv * /var/www/html
-            mkdir images
+           
